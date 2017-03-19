@@ -28,7 +28,7 @@ class FeedCommand extends Command {
 
 	protected function configure()
 	{
-		$this->setName('Feed:export')
+		$this->setName('feed:export')
 			->setDescription('Export product feed')
 			->addOption('show', 's', InputOption::VALUE_NONE, 'Print available exports')
 			->addOption('feed', 'f', InputOption::VALUE_IS_ARRAY | InputOption::VALUE_OPTIONAL);
